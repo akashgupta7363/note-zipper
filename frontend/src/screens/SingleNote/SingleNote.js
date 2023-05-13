@@ -31,9 +31,7 @@ function SingleNote({ match, history }) {
 
   useEffect(() => {
     const fetching = async () => {
-      const { data } = await axios.get(
-        `https://notes-zipper-app.onrender.com/api/notes/${match.params.id}`
-      );
+      const { data } = await axios.get(`/api/notes/${match.params.id}`);
 
       setTitle(data.title);
       setContent(data.content);
