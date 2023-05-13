@@ -17,7 +17,6 @@ const getNoteById = asyncHandler(async (req, res) => {
 
   if (note) {
     res.json(note);
-    return;
   } else {
     res.status(404).json({ message: "Note not found" });
   }
