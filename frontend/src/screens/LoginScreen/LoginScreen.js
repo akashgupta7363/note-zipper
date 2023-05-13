@@ -57,6 +57,16 @@ function LoginScreen({ history }) {
           <Button variant="primary" type="submit">
             Submit
           </Button>
+          <Button
+            style={{ marginLeft: 5 }}
+            onClick={() => {
+              setEmail("test111@gmail.com");
+              setPassword("test111");
+            }}
+          >
+            {" "}
+            Get Guest user credentials
+          </Button>
         </Form>
         <Row className="py-3">
           <Col>
