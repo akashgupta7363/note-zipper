@@ -20,24 +20,20 @@ app.use("/api/notes", noteRoutes);
 app.use("/api/users", userRoutes);
 
 // // --------------------------deployment------------------------------
-// const __dirname = path.resolve();
+const __dirname = path.resolve();
 
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static(path.join(__dirname, "../frontend/build")));
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../frontend/build")));
 
-//   app.get("*", (req, res) =>
-//     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
-//   );
-// } else {
-//   app.get("/", (req, res) => {
-//     res.send("API is running..");
-//   });
-// }
+  app.get("*", (req, res) =>
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
+  );
+} else {
+  app.get("/", (req, res) => {
+    res.send("API is running..");
+  });
+}
 // --------------------------deployment------------------------------
-
-app.get("/", (req, res) => {
-  res.send("API is running..");
-});
 
 // Error Handling middlewares
 app.use(notFound);
