@@ -7,13 +7,14 @@
 }
 .intro-text {
   width: 100%;
+  margin-left: 5rem;
   text-align: center;
 }
 .main {
   min-height: 93vh;
   display: flex;
   align-items: center;
-  background-image: url("../../background1.jpg");
+  background-image: url("https://st.depositphotos.com/1637056/2958/i/450/depositphotos_29589345-stock-photo-open-blank-notebook-on-grunge.jpg");
   background-position: center;
   background-size: cover;
 }
