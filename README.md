@@ -11,5 +11,8 @@
     </td>
   </tr>
 </table>
-[noteziper.webm](https://github.com/akashgupta7363/note-zipper/assets/63187954/86be371b-dc89-4d57-b8f8-343cd9ed7efe)
+<br/>
+
+[noteziper.webm](https://github.com/akashgupta7363/note-zipper/assets/63187954/80cb787b-897f-4df0-9a3f-c1a6efac5077)
+
 
