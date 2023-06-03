@@ -11,4 +11,5 @@
     </td>
   </tr>
 </table>
- file:///home/akash/Desktop/My-Portfolio/my-portfolio/src/assets/videos/noteziper.webm
+[noteziper.webm](https://github.com/akashgupta7363/note-zipper/assets/63187954/86be371b-dc89-4d57-b8f8-343cd9ed7efe)
+
