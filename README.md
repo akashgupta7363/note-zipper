@@ -13,6 +13,9 @@
 </table>
 <br/>
 
-[noteziper.webm](https://github.com/akashgupta7363/note-zipper/assets/63187954/80cb787b-897f-4df0-9a3f-c1a6efac5077)
+
+https://github.com/akashgupta7363/note-zipper/assets/63187954/9e6d3e6c-12f5-43a4-a0d0-7b0cf1582a3d
+
+
 
 
